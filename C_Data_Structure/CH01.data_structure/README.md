@@ -46,17 +46,16 @@ int    LSearch(int ar[], int len, int target)
     for(i = 0; i < len, i++)
     {
         if(ar[i] == target)
-            return i;    // 찾은 대상의 인덱스를 반환
+            return i;               // 찾은 대상의 인덱스를 반환
     }
-    return -1;             // 찾지 못했다면 -1을 반환
+    return -1;                      // 못 찾았으면 -1 반환
 }
 
 int    main()
 {
     int    arr[] = {3, 5, 2, 4, 9};
-    int    idx;
+    int    idx;    
     
-    // sizeof를 이용하여 int형 배열의 len을 구한다
     idx = LSearch(arr, sizeof(arr)/sizeof(int), 4);
     if (idx == -1)
         printf("탐색 실패\n");
@@ -68,6 +67,56 @@ int    main()
 ```
 
 * 시간 복잡도 분석
-> 핵심 연산자를 중심으로 시간 복잡도 계산  
+> 핵심 연산자('==')를 중심으로 시간 복잡도 계산  
 > > 데이터 수 n개에 대한 연산횟수 함수 T(n) 구하기.  
-> > 최악의 경우를 시간 복잡도의 기준으로 삼음.
+> > 최악의 경우를 시간 복잡도의 기준으로 삼음.  
+T(n) = n
+
+#### 이진 탐색(Binary Search) 알고리즘
+저장된 데이터가 정렬되어 있을때 사용가능함.
+
+* 코드  
+```c
+#include <stdio.h>
+int     BSearch(int ar[], int len, int target)
+{
+    int     first = 0;                // 시작 인덱스 값
+    int     last = len - 1;           // 마지막 인덱스 값
+    int     mid;
+
+    while(first <= last)
+    {
+        mid = (first + last) / 2;      // 중앙 인덱스 찾기
+
+        if(target == ar[mid])          // 찾았으면
+            return(mid);               // 탐색 완료
+        else                           // 못 찾았으면 탐색 대상을 반으로 줄인다.
+        {
+            if(target > ar[mid])       // 중앙 기준 타켓이 더 크면
+                first = mid + 1;       // 시작 인덱스를 중앙 다음으로 옮겨줌
+            else                       // 중앙 기준 타겟이 더 작으면
+                last = mid - 1;        // 마지막 인덱스를 중앙 이전으로 옮겨줌.
+        }
+    }
+    return -1;                         // 못 찾았으면 -1 반환
+}
+
+int     main()
+{
+    int     arr[] = {1, 3, 5, 7, 9};
+    int     idx;
+
+    idx = BSearch(arr, sizeof(arr)/sizeof(int), 7);
+    if(idx == -1)
+        printf("탐색 실패\n");
+    else
+        printf("타겟 저장 인덱스: %d\n", idx);
+
+    return 0;
+}
+```
+* 시간 복잡도 분석
+> 핵심 연산자('==')를 중심으로 시간 복잡도 계산  
+> > 데이터 수 n개에 대한 연산횟수 함수 T(n) 구하기.  
+> > 최악의 경우를 시간 복잡도의 기준으로 삼음.  
+T(n) = log 2 n
