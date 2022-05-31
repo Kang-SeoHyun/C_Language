@@ -37,29 +37,27 @@ ex) tree, graph
 #### 순차 탐색(Linear Search) 알고리즘
 
 * 코드  
-<pre>
-<code>
+```c
 #include <stdio.h>
 
-// 배열의 내용을 왼쪽에서 오른쪽으로 이동시키며 순차적으로 target을 탐색
-int    LS(int ar[], int len, int target)
+int    LSearch(int ar[], int len, int target)
 {
-    for(int idx = 0; idx < len, idx++)
+    int i;
+    for(i = 0; i < len, i++)
     {
-        if(ar[idx] == target)
-            return idx;    // 찾은 대상의 인덱스를 반환
+        if(ar[i] == target)
+            return i;    // 찾은 대상의 인덱스를 반환
     }
     return -1;             // 찾지 못했다면 -1을 반환
 }
 
 int    main()
 {
-    int    arr[] = {3, 5, 7, 9};
+    int    arr[] = {3, 5, 2, 4, 9};
     int    idx;
-
-    // int형 배열이므로 배열의 크기를 string으로 구할 수 없다
-    // sizeof를 이용하여 int형 배열의 크기를 구한다
-    idx = LS(arr, sizeof(arr)/sizeof(int), 7);
+    
+    // sizeof를 이용하여 int형 배열의 len을 구한다
+    idx = LSearch(arr, sizeof(arr)/sizeof(int), 4);
     if (idx == -1)
         printf("탐색 실패\n");
     else
@@ -67,7 +65,6 @@ int    main()
 
     return 0;
 }
-</code>
-</pre>
+```
 
 * 시간 복잡도 분석
