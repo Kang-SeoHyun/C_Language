@@ -1,25 +1,13 @@
 # 🗓 2022
-    
 
-## 📌 [C-기본개념학습](https://github.com/Ejaeda/C_lang/tree/master/C-lang)
-
-<details>
-<summary>  <kbd>자세히보기</kbd> </summary>
-    
-* 📖 교재 : [열혈강의 최호성의 C 프로그래밍](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9788965400172&orderClick=LAG&Kc=)
-    * 빠르게 여러번 학습하기
-    * 코드 따라하면서 내용 [정리하기](https://github.com/Ejaeda/C_lang/tree/master/C-lang)
-
-</details>
-    
-## 📌 [C-Pointer](https://github.com/Ejaeda/C_lang/tree/master/C-Pointer)
+## 📌 [C-Pointer](https://github.com/Kang-SeoHyun/C_Language)
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
 
 * 📖 교재 : [공동환의 열혈강의 C 포인터](https://freelec.co.kr/lecture/%EC%97%B4%ED%98%88%EA%B0%95%EC%9D%98-c-%ED%8F%AC%EC%9D%B8%ED%84%B0/)
     * 포인터 익숙해지기
-    * 코드 따라하면서 내용 [정리하기](https://github.com/Ejaeda/C_lang/tree/master/Pointer)
+    * 코드 따라하면서 내용 [정리하기](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer/code)
 
 </details>    
 
