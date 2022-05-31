@@ -8,6 +8,7 @@
 * 📖 교재 : [공동환의 열혈강의 C 포인터](https://freelec.co.kr/lecture/%EC%97%B4%ED%98%88%EA%B0%95%EC%9D%98-c-%ED%8F%AC%EC%9D%B8%ED%84%B0/)
     * 포인터 익숙해지기
     * 코드 따라하면서 내용 [정리하기](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer/code)
+    * 1일 1강 이상
 
 </details>    
 
@@ -17,8 +18,8 @@
 <summary> <kbd>자세히보기</kbd> </summary>
     
 *  📖 교재 : [윤성우의 열혈 자료구조](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788996094067)
-  * 2인 1개조 동료평가 진행(1주 1 ~ 2파트 진행)
-  * 깃허브 개념 정리
+   * 2인 1개조 동료평가 진행 (1주: 1 ~ 2파트 진행)
+   * 깃허브 개념 정리
 
 ### 스터디 방법 및 규칙
 * 학습 방법
@@ -46,6 +47,8 @@
 <summary>  <kbd>자세히보기</kbd> </summary>
 
   *  📖 사이트 : [백준](https://www.acmicpc.net/step)
-  * [라이벌 제도](https://solved.ac/ranking/rival)를 통한 그룹 라이벌 진도 확인
-  * [class](https://solved.ac/class)에 선별된 문제를 참고하여 학습
+   * [라이벌 제도](https://solved.ac/ranking/rival)를 통한 그룹 라이벌 진도 확인
+   * [class](https://solved.ac/class)에 선별된 문제를 참고하여 학습
+
 </details>
+--------------------------------------
