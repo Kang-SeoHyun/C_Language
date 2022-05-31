@@ -40,12 +40,12 @@
 </details>
 
 
-## 📌 [C-CodingTest](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test)
+## 📌 [C_Coding_Test](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test)
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
 
-*  📖 사이트 : [백준](https://www.acmicpc.net/step)
+  *  📖 사이트 : [백준](https://www.acmicpc.net/step)
   * [라이벌 제도](https://solved.ac/ranking/rival)를 통한 그룹 라이벌 진도 확인
   * [class](https://solved.ac/class)에 선별된 문제를 참고하여 학습
 </details>
