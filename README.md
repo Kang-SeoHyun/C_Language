@@ -1,6 +1,6 @@
 # 🗓 2022
 
-## 📌 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language)
+## 📌 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer)
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
