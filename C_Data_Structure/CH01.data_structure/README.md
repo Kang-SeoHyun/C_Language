@@ -121,4 +121,10 @@ int     main()
     * 데이터 수 n개에 대한 연산횟수 함수 T(n) 구하기.  
     * 최악의 경우를 시간 복잡도의 기준으로 삼음.
 
-* T(n) = log 2 n
+* T(n) = log 2 n  
+ 
+#### 빅-오 표기법
+데이터 수의 증가에 따른 연산횟수의 증가 형태를 표현한 것이다.
+* 빅-오 그래프  
+![image](https://user-images.githubusercontent.com/77817094/171560370-aebec744-00a0-4581-bcdf-696a03dc8e45.png)  
+
