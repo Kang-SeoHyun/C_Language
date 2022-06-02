@@ -34,7 +34,7 @@ ex) tree, graph
 2. 공간 복잡도 (메모리 사용량)
 </pre>
 
-#### 순차 탐색(Linear Search) 알고리즘
+#### ✨순차 탐색(Linear Search) 알고리즘✨
 
 * 코드  
 ```c
@@ -73,7 +73,7 @@ int    main()
 
 * T(n) = n
 
-#### 이진 탐색(Binary Search) 알고리즘
+#### ✨이진 탐색(Binary Search) 알고리즘✨
 저장된 데이터가 정렬되어 있을때 사용가능함.
 
 * 코드  
