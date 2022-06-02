@@ -108,3 +108,7 @@ int BsearchRecur(int arr[], int first, int last, int target)
         return BsearchRecur(arr, mid+1, last, target);
 }
 ```
+* 동작 방식  
+![image](https://user-images.githubusercontent.com/77817094/171573699-c57e4c91-859f-4fd3-899f-80feb9360f7d.png)
+
+## 하노이 타워
