@@ -123,12 +123,12 @@ int     main()
 
 * T(n) = log 2 n  
  
-#### 빅-오 표기법
+#### 빅-오 표기법  
 데이터 수의 증가에 따른 연산횟수의 증가 형태를 표현한 것이다.  
 증가형태를 표현 한 것이므로 최고차항의 차수가 패턴의 기준이 된다.
 * 빅-오 그래프  
 ![image](https://user-images.githubusercontent.com/77817094/171560870-9a495529-d7c7-49da-9035-5878aecbed86.png)  
 * 알고리즘의 시간복잡도  
-![image](https://user-images.githubusercontent.com/77817094/171561699-77c9329d-0fd8-4e80-afa3-282aacc1afbd.png)
+![image](https://user-images.githubusercontent.com/77817094/171561699-77c9329d-0fd8-4e80-afa3-282aacc1afbd.png)  
 데이터의 갯수, 연산횟수에 따라 더 유리한 알고리즘을 선택 할 수 있다.
 
