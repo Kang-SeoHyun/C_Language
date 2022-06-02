@@ -1,4 +1,4 @@
-# 📌 C_Data_Structure
+# 📒 C_Data_Structure ✏
     
 *  📖 교재 : [윤성우의 열혈 자료구조](http://www.kyobobook.co.kr/product/detailViewKor.laf?mallGb=KOR&ejkGb=KOR&barcode=9788996094067)
 * 2인 1개조 동료평가 진행 (1주: 1 ~ 2파트 진행)
