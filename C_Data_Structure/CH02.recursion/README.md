@@ -62,7 +62,8 @@ int fibo(int n)
 }
 ```
 > 이 방식으로 하면 함수 한 번 호출에 두 번 호출되기 때문에 시간복잡도가 O(2^n)이 된다.  
-> ![image](https://user-images.githubusercontent.com/77817094/171570770-24c3a8d6-0e89-430b-9d91-7f2f475d5768.png)  
+> ![image](https://user-images.githubusercontent.com/77817094/171571224-f384f44d-166f-4bad-8acb-1d1123955887.png)
+
 ```c
 #include <stdio.h>
 int fibo(int n, int r[])
@@ -79,3 +80,6 @@ int fibo(int n, int r[])
 ```
 > 배열을 만들어서 이미 계산 한 값을 넣어주면 시간복잡도는 O(n)이 된다.  
 > ![image](https://user-images.githubusercontent.com/77817094/171570888-4371b9a4-e427-492b-a43f-d1a2ad13e6f5.png)
+
+* 동작 방식  
+![image](https://user-images.githubusercontent.com/77817094/171570770-24c3a8d6-0e89-430b-9d91-7f2f475d5768.png)
