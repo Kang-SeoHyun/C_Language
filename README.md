@@ -1,6 +1,6 @@
 # 🗓 2022
 
-## 📌 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer)
+## 🐥 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer) 🐥
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
@@ -12,7 +12,7 @@
 
 </details>    
 
-## 📌 [C_Data_Structure](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure)
+## 🐥 [C_Data_Structure](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure) 🐥
 
 <details>
 <summary> <kbd>자세히보기</kbd> </summary>
@@ -27,7 +27,7 @@
   * 1일마다 코딩테스트 문제풀이 최소 1회 진행
   * 개인 학습 내용은 각자 정리 후 README에 업데이트
   
-### 스터디 일정('22.05.23.~)
+### 스터디 일정('22.05.23.~) ✏
 * 자료구조
     * [CHAPTER 1](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure/CH01.data_structure) 자료구조와 알고리즘의 이해
     * [CHAPTER 2](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure/CH02.recursion) 재귀
@@ -41,7 +41,7 @@
 </details>
 
 
-## 📌 [C_Coding_Test](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test)
+## 🐥 [C_Coding_Test](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test) 🐥
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
