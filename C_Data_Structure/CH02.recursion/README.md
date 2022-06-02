@@ -68,9 +68,9 @@ int fibo(int n)
 #include <stdio.h>
 int fibo(int n, int r[])
 {
-    if(n <= 0)
+    if(n == 1)
         return 0;
-    else if(n == 1)
+    else if(n == 2)
         return r[n] = 1;
     else if(r[n] > 0)
         return r[n];
@@ -82,4 +82,5 @@ int fibo(int n, int r[])
 > ![image](https://user-images.githubusercontent.com/77817094/171570888-4371b9a4-e427-492b-a43f-d1a2ad13e6f5.png)
 
 * 동작 방식  
-![image](https://user-images.githubusercontent.com/77817094/171570770-24c3a8d6-0e89-430b-9d91-7f2f475d5768.png)
+![image](https://user-images.githubusercontent.com/77817094/171571988-69bc5279-aa8b-479b-b7c0-76406075fdfc.png)
+
