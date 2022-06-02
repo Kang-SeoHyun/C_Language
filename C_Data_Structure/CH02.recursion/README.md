@@ -33,7 +33,8 @@ Factorial(3) = 3 * Factorial(2)
 -> Factorial(2) = 2 * Factorial(1)  
 -> Factorial(1) = 1 * Factorial(0)  
 -> Factorial(0) = return 1 !탈출조건!  
+</pre>  
 끝까지 왔으면 다시 거슬러 올라가면서 처음 Factorial(3)에 해당되는 값 return 함!
-</pre>
+
 ## 🌟02-2 재귀의 활용🌟
 
