@@ -82,5 +82,29 @@ int fibo(int n, int r[])
 > ![image](https://user-images.githubusercontent.com/77817094/171570888-4371b9a4-e427-492b-a43f-d1a2ad13e6f5.png)
 
 * 동작 방식  
-![image](https://user-images.githubusercontent.com/77817094/171571988-69bc5279-aa8b-479b-b7c0-76406075fdfc.png)
+![image](https://user-images.githubusercontent.com/77817094/171571988-69bc5279-aa8b-479b-b7c0-76406075fdfc.png)  
 
+#### 이진 탐색 알고리즘의 재귀적 구현
+* 함수 구현
+<pre>
+1. 탐색 범위의 중앙에 목표값이 저장되었는지 확인
+2. 저장되지 않았다면 탐색 범위를 반을 줄여서 다시 탐색시작(재귀)
+</pre>
+
+* 코드
+```c
+int BsearchRecur(int arr[], int first, int last, int target)
+{
+    int mid;
+    if(first > last)              // 못 찾았을 경우의 종료조건
+        return -1;
+    mid = (first + last) / 2;
+
+    if(arr[mid] == target)        // 찾았을 경우
+        return mid;
+    else if(target < arr[mid])    // mid 아래에서 찾아야 하는 경우
+        return BsearchRecur(arr, first, mid-1, target);
+    else                          // mid 윗부분에서 찾아야 하는 경우
+        return BsearchRecur(arr, mid+1, last, target);
+}
+```
