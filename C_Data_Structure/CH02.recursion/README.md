@@ -147,3 +147,5 @@ int main(void)
     return 0;
 }
 ```
+* 동작 방식  
+![image](https://user-images.githubusercontent.com/77817094/171581960-b840b152-3c41-4f8c-8080-e677f51155a3.png)
