@@ -130,5 +130,7 @@ int     main()
 ![image](https://user-images.githubusercontent.com/77817094/171560870-9a495529-d7c7-49da-9035-5878aecbed86.png)  
 * 알고리즘의 시간복잡도  
 ![image](https://user-images.githubusercontent.com/77817094/171561699-77c9329d-0fd8-4e80-afa3-282aacc1afbd.png)  
-데이터의 갯수, 연산횟수에 따라 더 유리한 알고리즘을 선택 할 수 있다.
-
+데이터의 갯수, 연산횟수에 따라 더 유리한 알고리즘을 선택 할 수 있다.  
+#### 빅-오 수학적 접근  
+> n >= k 에서 항상 Cg(n) >= f(n) 이면  
+> > f(n)의 빅-오는 O(g(n)) 이다.
