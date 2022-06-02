@@ -1,6 +1,6 @@
-# 🗓 2022
+# 🌈 2022 ✨
 
-## 🐥 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer) 🐥
+## 🐥 [C_Pointer](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Pointer)
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
@@ -12,7 +12,7 @@
 
 </details>    
 
-## 🐥 [C_Data_Structure](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure) 🐥
+## 🐥 [C_Data_Structure](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure)
 
 <details>
 <summary> <kbd>자세히보기</kbd> </summary>
@@ -41,7 +41,7 @@
 </details>
 
 
-## 🐥 [C_Coding_Test](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test) 🐥
+## 🐥 [C_Coding_Test](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Coding_Test)
 
 <details>
 <summary>  <kbd>자세히보기</kbd> </summary>
