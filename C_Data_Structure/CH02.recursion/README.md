@@ -8,12 +8,12 @@
 > 따라서 재귀함수에는 탈출 조건이 필요하다.  
 
 * Recursive 팩토리얼 함수  
-* * 함수 구현
+  * 함수 구현
 <pre>
 1. 0! = 1
 2. n! = n * (n - 1)!
 </pre>
-* * 코드  
+  * 코드  
 ```c
 #include <stdio.h>
 int Factorial(int n)
