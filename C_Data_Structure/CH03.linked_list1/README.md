@@ -20,21 +20,15 @@ typedef struct_wallet  			  // 지갑 구조체 정의
 ```
 
 * Wallet의 ADT정의
-```
-Operations:
-```
 ```c
+Operations:  
+
 int   TakeOutMoney(Wallet* pw, int coinNum, int billNum);   // 돈을 꺼내는 연산
-```
-```
 -  첫 번째 인자로 전달된 주소의 지갑에서 돈을 꺼냄.
 -  두 번째 인자로 꺼낼 동전의 수, 세 번쩨 인자로 꺼낼 지폐의 수를 전달함.
 -  꺼내고자 하는 돈의 총액이 반환되고 그만큼 돈이 차감됨.  
-```
-```c
+
 void	PutMoney(Wallet* pw, int coinNum, int billNum);     // 돈을 넣는 연산
-```
-```
 -  첫 번째 인자로 전달된 주소의 지갑에 돈을 넣음.
 -  두 번째 인자로 넣을 동전의 수, 세 번쩨 인자로 넣을 지폐의 수를 전달함.
 -  넣은 만큼 동전과 지폐의 수가 증가함.
