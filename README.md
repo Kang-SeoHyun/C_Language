@@ -30,8 +30,9 @@
 * ❓ 방법 : 
    * 2인 1개조 동료평가 진행 (1주: 1 ~ 2파트 진행)  
    * 깃허브 개념 정리
-  
-### 🤙🏻스터디 일정('22.05.23.~)🤙🏻
+* 🤙🏻 약속 : 매일 조금씩이라도 꾸준히 하기  
+
+### 스터디 일정('22.05.23.~)  
 * 자료구조
     * [CHAPTER 1](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure/CH01.data_structure) 자료구조와 알고리즘의 이해
     * [CHAPTER 2](https://github.com/Kang-SeoHyun/C_Language/tree/main/C_Data_Structure/CH02.recursion) 재귀
