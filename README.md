@@ -57,10 +57,10 @@
 <details>
 <summary>  <kbd>자세히</kbd> </summary>
 
-  *  📖 사이트 : [백준](https://www.acmicpc.net/step)
-  * ❓ 방법 :
-   * [라이벌 제도](https://solved.ac/ranking/rival)를 통한 그룹 라이벌 진도 확인  
-   * [class](https://solved.ac/class)에 선별된 문제를 참고하여 학습
+*  📖 사이트 : [백준](https://www.acmicpc.net/step)
+* ❓ 방법 :  
+ * [라이벌 제도](https://solved.ac/ranking/rival)를 통한 그룹 라이벌 진도 확인  
+ * [class](https://solved.ac/class)에 선별된 문제를 참고하여 학습
 
 </details>
 
