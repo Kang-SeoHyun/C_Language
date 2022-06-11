@@ -1,3 +1,4 @@
+//10872
 #include <stdio.h>
 
 int s_factorial(int n)
